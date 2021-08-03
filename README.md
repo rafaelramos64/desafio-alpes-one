@@ -1,6 +1,7 @@
 # Desafio Alpes One
 
 ### Desafio realizado para concorrer à uma vaga de Dev Front-end na empresa Alpes One, do grupo Carbel. Link para o site da Alpes One:  https://alpes.one
+o desafio consistia em implementar uma landing page construida no AdobeXD. Tecnologias utilizadas: Vue.js, Bootstrapvue, Boostrap4, HTML5, CSS3 e Scss.
 
 
 ## Link para a aplicação online
