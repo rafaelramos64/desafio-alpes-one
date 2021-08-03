@@ -1,4 +1,4 @@
-# desafio-alpes-one
+# Desafio Alpes One
 
 ## Project setup
 ```
