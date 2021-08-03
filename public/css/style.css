@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Foundry Monoline";
+  src: url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.eot");
+  src: url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.svg#Foundry Monoline") format("svg");
+}
+
+/* Css reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+html {
+  font-family: Foundry Monoline !important;
+  background-color: #fff;
+}
+

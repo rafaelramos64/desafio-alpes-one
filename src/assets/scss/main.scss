@@ -1,0 +1,9 @@
+// Reseting all container paddings
+ 
+.container-fluid {
+  padding: 0 !important;
+}
+
+img, .nav-icons {
+  background: transparent no-repeat padding-box !important;
+}
