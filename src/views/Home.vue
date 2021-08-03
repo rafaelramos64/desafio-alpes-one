@@ -19,6 +19,10 @@
     <div>
       <CivicInterior />
     </div>
+
+    <div>
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -28,6 +32,7 @@ import Header from '@/components/Header'
 import Contact from '@/components/Contact'
 import DriverEmotion from '@/components/DriverEmotion'
 import CivicInterior from '@/components/CivicInterior'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
@@ -35,7 +40,8 @@ export default {
     Header,
     Contact,
     DriverEmotion,
-    CivicInterior
+    CivicInterior,
+    Footer
   },
   name: 'Home'
 }

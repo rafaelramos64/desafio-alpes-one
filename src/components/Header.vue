@@ -10,7 +10,7 @@
 
       <b-col cols="6" style="text-align: right" class="p-0">
         <span class="call-center"> CENTRAL DE ATENDIMENTO</span> <br>
-        <span class="phone-number">(31)  3123-7234</span>
+        <span class="phone-number">(31) 3123-1234</span>
       </b-col>
     </b-row>
     <b-row style="height: 400px;">
@@ -37,7 +37,6 @@ export default {
   font: italic normal normal 16px/21px Foundry Monoline;
   letter-spacing: -0.7px;
   color: #727B7A;
-  opacity: 1;
 }
 
 .phone-number {
@@ -46,7 +45,6 @@ export default {
   font: italic normal normal 26px/35px Foundry Monoline;
   letter-spacing: 0px;
   color: #DF0209;
-  opacity: 1;
 }
 
 .col, .row {
