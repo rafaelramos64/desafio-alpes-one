@@ -24,7 +24,7 @@ img, .nav-icons {
 
 
 /* Media queries for responsive mobile */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 
   // Navbar page
   .initial-bar-mobile {
@@ -47,7 +47,7 @@ img, .nav-icons {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   /* Removing all initials margins */
   .remove-margin {
     margin: 0 0 0 0 !important;
@@ -256,6 +256,19 @@ img, .nav-icons {
 
   .final-row-footer {
     min-height: 181px !important;
+  }
+
+  @media only screen and (max-width: 380px) {
+    .spans-civic-inside {
+
+      top: 1390px !important;
+    }
+  }
+
+  @media only screen and (max-width: 330px) {
+    .spans-civic-inside {
+      top: 1310px !important;
+    }
   }
 
 }

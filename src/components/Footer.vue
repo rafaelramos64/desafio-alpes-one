@@ -51,7 +51,7 @@
 
         <b-row class="m-0 final-row-footer" align-h="end" style="padding: 27px 0">
           <b-col sm="12" md="3" class="m-0 pt-2 px-0 text-center footer-logo" >
-            <img src="../assets/img/footer/logo.png" alt="Logo"
+            <img src="../assets/img/footer/logo@2x.png" alt="Logo"
               width="110px"
               height="28px">
           </b-col>
