@@ -34,7 +34,7 @@
         <img class="location-icon" src="../assets/img/navbar/location.svg" alt="Location">
       </b-col>
 
-      <b-col cols="1" style="margin-left: 0; padding-top: 5px">
+      <b-col cols="1" style="margin-left: 0;">
         <img class="email-icon" src="../assets/img/navbar/black-envelope.svg" alt="Email">
       </b-col>
     </b-row>
