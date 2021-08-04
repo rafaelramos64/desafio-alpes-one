@@ -240,9 +240,10 @@ img, .nav-icons {
     text-align: center;
     padding: 0 52px 0 52px !important;
   }
-
-  .col-1[data-v-40ab164b] {
-    width: 16% !important
+  
+  // Adding responsivity to social icons on footer
+  .col-1 {
+    min-width: 16% !important
   }
 
   .footer-logo {
@@ -258,9 +259,10 @@ img, .nav-icons {
     min-height: 181px !important;
   }
 
+
+  //Media queries for text position on image of civic inside
   @media only screen and (max-width: 380px) {
     .spans-civic-inside {
-
       top: 1390px !important;
     }
   }
