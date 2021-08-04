@@ -1,7 +1,7 @@
 <template>
-  <b-container>
+  <b-container fluid>
     <b-row>
-      <b-col>
+      <b-col class="p-0">
         <div class="contact-card">
           <b-row align-h="start" style="margin-bottom: 5px !important;">
             <b-col cols="2">

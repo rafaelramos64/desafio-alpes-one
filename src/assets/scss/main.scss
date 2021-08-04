@@ -36,12 +36,12 @@ img, .nav-icons {
 @media only screen and (max-width: 500px) {
   /* Removing all initials margins */
   .remove-margin {
-    margin: 0 !important;
+    margin: 0 0 0 0 !important;
   }
 
   /* Removing all initials paddings */
   .remove-padding {
-    padding: 0 !important;
+    padding: 0 0 0 0 !important;
   }
   
   // Navbar page
@@ -50,11 +50,12 @@ img, .nav-icons {
   }
 
   .initial-bar-mobile {
-    min-width: 100%;
+    width: 100% !important;
     height: 40px;
     background-color: #EEEEEE;
     background-repeat: no-repeat;
-    background-origin: padding-box
+    background-origin: padding-box;
+    margin: 0!important;
   }
 
   .home-icon {
@@ -149,15 +150,12 @@ img, .nav-icons {
   }
 
   .civic-interior-mobile {
-    height: 415px;
-    min-width: 100%;
-    max-width: 100%;
     object-fit: cover !important;
   }
 
   .spans-civic-inside {
     position: absolute;
-    top: 1615px;
+    top: 1475px;
     text-align: center !important;
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -167,12 +165,82 @@ img, .nav-icons {
   .text-civic-inside1 {
     font: italic normal normal 24px/32px Foundry Monoline;
     height: 64px;
-    /* margin: 0 54px 0 55px; */
   }
 
   .text-civic-inside2 {
-    font: normal normal normal 16px/21px Foundry Monoline;
+    font: normal normal normal 16.5px/21px Foundry Monoline;
     height: 42px;
-    /* margin: 0 33px 0 34px; */
   }
+
+  .ready, .know {
+    text-align: center !important;
+  }
+
+  .ready {
+    margin-top: 60px !important;
+    font: italic normal bold 26px/32px Foundry Monoline !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+  .know {
+    margin-top: 0rem !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .row-cards-exemples {
+    margin: 0 20px 0 20px !important;
+  }
+
+  .card-exemples {
+    width: 100% !important;
+    height: 196px !important;
+    margin-bottom: 3.5rem !important
+  }
+
+  .know-button {
+    width: 100% !important;
+    position: relative;
+    top: 20px;
+    min-height: 36px !important;
+  }
+
+  .car-exemple-text {
+    display: none !important;
+  }
+
+  // Footer page
+  .background-footer {
+    height: 339px !important;
+  }
+
+  .contact-footer {
+    margin: -17px 0 -5px 0 !important;
+    padding-top: 0.5rem !important;
+  }
+
+  .follow {
+    font: italic normal bold 20px/24px Foundry Monoline !important;
+    text-align: center;
+    padding: 0 52px 0 52px !important;
+  }
+
+  .col-1[data-v-40ab164b] {
+    width: 16% !important
+  }
+
+  .footer-logo {
+    margin-top: -1rem !important;
+  }
+
+  .col-ibama {
+    text-align: center !important;
+    margin-top: 0.5rem !important;
+  }
+
+  .final-row-footer {
+    min-height: 181px !important;
+  }
+
 }

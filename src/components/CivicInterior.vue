@@ -3,7 +3,7 @@
     <b-row class="p-0 m-0" no-gutters>
       <b-col class="p-0 m-0 gradiente-background">
         <img class="civic-interior" src="../assets/img/civicInterior/grupo74@2x.png" alt="Civic Interior image">
-        <b-img class="civic-interior-mobile"
+        <b-img class="civic-interior-mobile" fluid
           :src="require('../assets/img/civicInterior/civic_inside1.png')" alt="Civic Interior image">
         </b-img>
       </b-col>
@@ -25,8 +25,8 @@
       </b-col>
     </b-row>
 
-    <b-row style="margin-left: 98px " class="p-0 m-0 remove-margin">
-      <b-col cols="3" class="p-0 m-0 card-exemples">
+    <b-row style="margin: 0 0 0 98px " class="p-0 row-cards-exemples">
+      <b-col sm="12" md="3" class="p-0 m-0 card-exemples">
         <img class="cars-exemples" src="../assets/img/civicInterior/accord.png" alt="Image Civic">
         <span class="car-exemple-text">
           Novo Honda Accord: a combinação perfeita de três atributos exigidos pelo consumidor:
@@ -35,7 +35,7 @@
         <button class="know-button">CONHEÇA MAIS</button>
       </b-col>
 
-      <b-col cols="3" class="p-0 m-0 card-exemples">
+      <b-col sm="12" md="3" class="p-0 m-0 card-exemples">
         <img class="cars-exemples" src="../assets/img/civicInterior/city.png" alt="Image Civic">
         <span class="car-exemple-text">
           O City está muito mais moderno e esportivo. Com design único
@@ -44,7 +44,7 @@
         <button class="know-button">CONHEÇA MAIS</button>
       </b-col>
 
-      <b-col cols="3" class="p-0 m-0 card-exemples">
+      <b-col sm="12" md="3" class="p-0 m-0 card-exemples">
         <img class="cars-exemples" src="../assets/img/civicInterior/fit_2018.png" alt="Image Civic">
         <span class="car-exemple-text">
           Com seu design inconfundível, o novo Honda Fit traz novidades
@@ -95,7 +95,6 @@ export default {
   height: 350px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 1px solid #D5D5D5;
-  opacity: 1;
   margin-right: 30px !important;
   display: flex;
   justify-content: space-between;

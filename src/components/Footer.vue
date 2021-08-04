@@ -2,9 +2,9 @@
   <b-container fluid style="margin-top: 60px;">
     <b-row class="m-0 p-0"  >
       <b-col class="m-0 p-0">
-        <b-row class="m-0 p-0" align-h="center"
+        <b-row class="m-0 p-0 background-footer" align-h="center"
           style="background-color: #EEEEEE; height: 228px; padding-top: 19px !important;">
-          <b-col cols="4" class="m-0 px-0 find-one-footer">
+          <b-col sm="12" md="4" class="px-0 find-one-footer remove-padding remove-margin">
             <img
               src="../assets/img/footer/location.svg"
               alt="Location"
@@ -15,52 +15,53 @@
             <span class="second-span">concessionária</span>
           </b-col>
 
-          <b-col cols="4" class=" m-0 p-0 pt-2 contact-footer">
+          <b-col sm="12" md="4" class=" remove-padding remove-margin p-0 pt-2 contact-footer">
             <span class="call-center"> CENTRAL DE ATENDIMENTO</span> <br>
             <span class="phone-number">(31)  3123-1234</span>
           </b-col>
 
-          <b-row class="m-0 p-0">
-            <b-col class="m-0 p-0 follow">
-              <span>SIGA A BANZAI NAS REDES SOCIAIS</span>
-            </b-col>
-          </b-row>
+          <b-col cols="12" class="m-0 p-0">
+            <b-row class="m-0 p-0">
+              <b-col class="mb-3 p-0 follow">
+                <span>SIGA A BANZAI NAS REDES SOCIAIS</span>
+              </b-col>
+            </b-row>
 
-          <b-row class="m-0 p-0 " align-h="center">
-            <b-col cols="1" class="m-0 ">
-              <div class="background-img-socials rounded-circle">
-                <img class="social-icon-facebook" src="../assets/img/footer/facebook.svg" alt="Image Facebook">
-              </div>
-            </b-col>
+            <b-row class="m-0 p-0 " align-h="center">
+              <b-col cols="1" class="m-0">
+                <div class="background-img-socials rounded-circle">
+                  <img class="social-icon-facebook" src="../assets/img/footer/facebook.svg" alt="Image Facebook">
+                </div>
+              </b-col>
 
-            <b-col cols="1" class="m-0" style="padding-left: 1rem">
-              <div class="background-img-socials rounded-circle">
-              <b-icon class="social-icon-instagram" icon="instagram" variant="light" scale="1.6"></b-icon>
-              </div>
-            </b-col>
+              <b-col cols="1" class="m-0" style="padding-left: 1rem">
+                <div class="background-img-socials rounded-circle">
+                <b-icon class="social-icon-instagram" icon="instagram" variant="light" scale="1.6"></b-icon>
+                </div>
+              </b-col>
 
-            <b-col cols="1" class="m-0" style="padding-left: 1rem">
-              <div class="background-img-socials rounded-circle">
-                <img class="social-icon-twitter" src="../assets/img/footer/twitter.svg" alt="Image Twitter">
-              </div>
-            </b-col>
-          </b-row>
+              <b-col cols="1" class="m-0" style="padding-left: 1rem">
+                <div class="background-img-socials rounded-circle">
+                  <img class="social-icon-twitter" src="../assets/img/footer/twitter.svg" alt="Image Twitter">
+                </div>
+              </b-col>
+            </b-row>
+          </b-col>
         </b-row>
 
-        <b-row class="m-0 " align-h="end" style="padding: 27px 0">
-          <b-col cols="3" class="m-0 pt-2 px-0 text-center" >
+        <b-row class="m-0 final-row-footer" align-h="end" style="padding: 27px 0">
+          <b-col sm="12" md="3" class="m-0 pt-2 px-0 text-center footer-logo" >
             <img src="../assets/img/footer/logo.png" alt="Logo"
               width="110px"
               height="28px">
           </b-col>
 
-           <b-col cols="6 " class="m-0 ">
+           <b-col sm="12" md="6 " class="m-0 col-ibama">
               <span class="text-ibama-logo">Todos juntos fazem um trânsito melhor</span>
               <img src="../assets/img/footer/logo_ibama.png" alt="Logo Ibama">
           </b-col>
         </b-row>
       </b-col>
-
     </b-row>
   </b-container>
 </template>
@@ -100,13 +101,12 @@ export default {
 
 .find-one-footer {
   text-align: left !important;
-  padding-top: 0.5rem;
-  margin-left: -14px !important;
+  padding-top: 0.5rem !important;
+  margin: 0 0 0 -14px;
 }
 
 .contact-footer {
-  margin-right: -30px !important;
-  margin-left: 30px !important;
+  margin: 0 -30px 0 30px;
 }
 
 .contact-footer, .find-one-footer {
@@ -127,7 +127,7 @@ export default {
 
 .phone-number {
   position: relative;
-  left: -0.9rem !important;
+  left: -0.5rem !important;
   font: italic normal normal 26px/35px Foundry Monoline;
   letter-spacing: 0px;
   color: #DF0209;
