@@ -1,5 +1,19 @@
+@font-face {
+  font-family: "Foundry Monoline";
+  src: url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.eot");
+  src: url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.svg#Foundry Monoline") format("svg");
+}
+
+html {
+  font-family: Foundry Monoline !important;
+  background-color: #fff;
+}
+
 // Reseting all container paddings
- 
 .container-fluid {
   padding: 0 !important;
 }
@@ -73,6 +87,31 @@ img, .nav-icons {
     height: 20px;
   }
 
+  // Header page
+  .center-contact-logo {
+    text-align: center !important;
+    margin-top: 28.7px;
+  }
+
+  .background-civic {
+    display: none !important;
+  }
+
+  .civic-10 {
+    margin: 7px auto 40.38px auto !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+
+  // Contacts page
+  .contact-card {
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+    min-width: 90%;
+  }
+
   // DriverEmotion page
   .emotion-text {
     margin: 43px 20px 14px 20px !important;
@@ -116,31 +155,6 @@ img, .nav-icons {
     width: 100% !important;
   }
 
-  // Header page
-  .call-center-col {
-    margin-top: 28.7px;
-  }
-
-  .background-civic {
-    display: none !important;
-  }
-
-  .civic-10 {
-    margin: 7px auto 40.38px auto !important;
-    display: flex;
-    justify-content: center;
-    flex-direction: column !important;
-  }
-
-  // Contacts page
-  .contact-card {
-    position: relative !important;
-    top: 0px !important;
-    left: 0px !important;
-    min-width: 90%;
-  }
-
-  // CivicInterior page
   .civic-interior {
     display: none !important;
   }
@@ -172,11 +186,8 @@ img, .nav-icons {
     height: 42px;
   }
 
-  .ready, .know {
-    text-align: center !important;
-  }
-
   .ready {
+    text-align: center !important;
     margin-top: 60px !important;
     font: italic normal bold 26px/32px Foundry Monoline !important;
     padding-left: 25px !important;
@@ -184,6 +195,7 @@ img, .nav-icons {
   }
 
   .know {
+    text-align: center !important;
     margin-top: 0rem !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
@@ -213,6 +225,8 @@ img, .nav-icons {
   // Footer page
   .background-footer {
     height: 339px !important;
+    max-width: 100% !important;
+    /* padding: 0 52px 0 52px !important; */
   }
 
   .contact-footer {
