@@ -25,7 +25,7 @@
 
     <b-row
       align-h="center"
-      class="initial-bar-mobile pt-1">
+      class="initial-bar-mobile">
       <b-col cols="1" style="margin-right: 0">
         <img class="home-icon" src="../assets/img/navbar/home-button.svg" alt="Home">
       </b-col>
@@ -34,7 +34,7 @@
         <img class="location-icon" src="../assets/img/navbar/location.svg" alt="Location">
       </b-col>
 
-      <b-col cols="1" style="margin-left: 0;">
+      <b-col cols="1" style="margin-left: 0; padding-top: 5px">
         <img class="email-icon" src="../assets/img/navbar/black-envelope.svg" alt="Email">
       </b-col>
     </b-row>
