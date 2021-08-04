@@ -1,8 +1,15 @@
 <template>
   <b-container fluid>
     <b-row class="p-0 m-0" no-gutters>
-      <b-col class="p-0 m-0">
+      <b-col class="p-0 m-0 gradiente-background">
         <img class="civic-interior" src="../assets/img/civicInterior/grupo74@2x.png" alt="Civic Interior image">
+        <b-img class="civic-interior-mobile"
+          :src="require('../assets/img/civicInterior/civic_inside1.png')" alt="Civic Interior image">
+        </b-img>
+      </b-col>
+      <b-col class="p-0 spans-civic-inside">
+        <span class="text-civic-inside1">PREPARE-SE PARA ALGO REALMENTE NOVO</span><br>
+        <span class="text-civic-inside2">O Novo Civic Geração 10 vem completo de série. Conheça a versão perfeita para você.</span>
       </b-col>
     </b-row>
 
@@ -18,7 +25,7 @@
       </b-col>
     </b-row>
 
-    <b-row style="margin-left: 98px !important" class="p-0 m-0">
+    <b-row style="margin-left: 98px " class="p-0 m-0 remove-margin">
       <b-col cols="3" class="p-0 m-0 card-exemples">
         <img class="cars-exemples" src="../assets/img/civicInterior/accord.png" alt="Image Civic">
         <span class="car-exemple-text">

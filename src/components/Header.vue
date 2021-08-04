@@ -14,7 +14,7 @@
       </b-col>
     </b-row>
 
-    <b-row style="height: 400px;" >
+    <b-row>
       <b-col>
         <b-img fluid :src="require('../assets/img/header/retangulo1.png')" alt="Img Civic" class="background-civic"> </b-img>
         <div class="civic-10">

@@ -11,8 +11,9 @@ img, .nav-icons {
 
 /* Media queries for responsive mobile */
 @media only screen and (min-width: 500px) {
-  // DriverEmotion page
-  .img-civic-mobile {
+
+  // Navbar page
+  .initial-bar-mobile {
     display: none !important;
   }
 
@@ -21,6 +22,15 @@ img, .nav-icons {
     display: none !important;
   }
 
+  // DriverEmotion page
+  .img-civic-mobile {
+    display: none !important;
+  }
+
+  // CivicInterior page
+  .civic-interior-mobile, .spans-civic-inside {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -28,7 +38,40 @@ img, .nav-icons {
   .remove-margin {
     margin: 0 !important;
   }
+
+  /* Removing all initials paddings */
+  .remove-padding {
+    padding: 0 !important;
+  }
   
+  // Navbar page
+  .initial-bar {
+    display: none !important;
+  }
+
+  .initial-bar-mobile {
+    min-width: 100%;
+    height: 40px;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+    background-origin: padding-box
+  }
+
+  .home-icon {
+    width: 30px;
+    height: 25px
+  }
+
+  .location-icon {
+    width: 18px;
+    height: 25px;
+  }
+
+  .email-icon {
+    width: 24px;
+    height: 20px;
+  }
+
   // DriverEmotion page
   .emotion-text {
     margin: 43px 20px 14px 20px !important;
@@ -53,8 +96,13 @@ img, .nav-icons {
   }
 
   .civic-text {
-    width: 100% !important;
+    max-width: 100% !important;
     height: 143px !important;
+    text-align: center;
+    font-weight: bold !important;
+    padding: 0px 20px 0px 20px !important;
+    margin: 0px 0px 42px 0px !important;
+    font-size: 18.7px !important;
   }
 
   .img-3-cars {
@@ -89,5 +137,42 @@ img, .nav-icons {
     top: 0px !important;
     left: 0px !important;
     min-width: 90%;
+  }
+
+  // CivicInterior page
+  .civic-interior {
+    display: none !important;
+  }
+
+  .gradiente-background {
+    background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+  }
+
+  .civic-interior-mobile {
+    height: 415px;
+    min-width: 100%;
+    max-width: 100%;
+    object-fit: cover !important;
+  }
+
+  .spans-civic-inside {
+    position: absolute;
+    top: 1615px;
+    text-align: center !important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 0 33px 0 34px !important;
+  }
+
+  .text-civic-inside1 {
+    font: italic normal normal 24px/32px Foundry Monoline;
+    height: 64px;
+    /* margin: 0 54px 0 55px; */
+  }
+
+  .text-civic-inside2 {
+    font: normal normal normal 16px/21px Foundry Monoline;
+    height: 42px;
+    /* margin: 0 33px 0 34px; */
   }
 }

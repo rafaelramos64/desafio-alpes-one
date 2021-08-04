@@ -1,11 +1,11 @@
 <template>
   <b-container fluid>
-    <b-row class="emotion-text p-0">
+    <b-row class="emotion-text">
       <b-col>
         <span>A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE</span>
       </b-col>
     </b-row>
-    <b-row style="margin-left: 98px;" class="remove-margin">
+    <b-row style="margin-left: 98px; --bs-gutter-x: 0rem;" class="remove-margin">
       <b-col cols="2" class="img-3-cars m-0 p-0">
         <img src="../assets/img/driverEmotion/retangulo16@2x.png" alt="Image Civic"><br>
         <img src="../assets/img/driverEmotion/retangulo19@2x.png" alt="Image Civic"><br>
@@ -16,8 +16,8 @@
         <img class="img-civic-mobile" src="../assets/img/driverEmotion/juntosi.png" height="100px" alt="Image Civic">
       </b-col>
     </b-row>
-    <b-row class="civic-text remove-margin p-0">
-      <b-col>
+    <b-row class="civic-text">
+      <b-col class="p-0">
         <span>
           O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre.
           Ele garante a melhor dirigibilidade com o máximo em sofisticação e conforto,
