@@ -1,14 +1,14 @@
 <template>
   <b-container fluid>
     <b-row
-      class="m-0 row-header"
+      class="m-0 remove-padding"
       align-h="between"
       style="padding: 18px 114px; max-width: 100%; --bs-gutter-x: 0rem;">
-      <b-col md="6" sm="12" class="p-0 m-0 center-contact-logo">
+      <b-col md="6" sm="12" class="p-0 center-contact-logo">
         <img src="../assets/img/header/logo.png" alt="Logo">
       </b-col>
 
-      <b-col md="6" sm="12" style="text-align: right" class="p-0 m-0 center-contact-logo">
+      <b-col md="6" sm="12" style="text-align: right" class="p-0 center-contact-logo">
         <span class="call-center"> CENTRAL DE ATENDIMENTO</span> <br>
         <span class="phone-number">(31) 3123-1234</span>
       </b-col>
