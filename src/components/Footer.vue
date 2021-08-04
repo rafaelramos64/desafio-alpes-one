@@ -1,6 +1,6 @@
 <template>
-  <b-container fluid>
-    <b-row class="m-0 p-0">
+  <b-container fluid style="margin-top: 60px;">
+    <b-row class="m-0 p-0"  >
       <b-col class="m-0 p-0">
         <b-row class="m-0 p-0" align-h="center"
           style="background-color: #EEEEEE; height: 228px; padding-top: 19px !important;">

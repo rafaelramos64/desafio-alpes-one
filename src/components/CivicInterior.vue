@@ -6,13 +6,13 @@
       </b-col>
     </b-row>
 
-    <b-row class="p-0 m-0 ready">
+    <b-row class="p-0 ready remove-margin">
       <b-col class="p-0 m-0 ">
         <span>PRONTO PARA TER UM HONDA?</span>
       </b-col>
     </b-row>
 
-    <b-row class="p-0 m-0  know">
+    <b-row class="p-0 know remove-margin ">
       <b-col class="p-0 m-0">
         <span>Conheça os últimos grandes lançamentos da honda.</span>
       </b-col>
@@ -67,9 +67,7 @@ export default {
 }
 
 .ready {
-  /* margin-top: 38.29px !important;
-  margin-bottom: 53px!important; */
-  margin-left: 95px !important;
+  margin-left: 95px;
   width: 495px;
   height: 46px;
   font: italic normal bold 34px/46px Foundry Monoline;
@@ -77,11 +75,11 @@ export default {
 }
 
 .know {
-  margin-bottom: 33px !important;
+  margin-left: 95px;
+  margin-bottom: 33px;
   font: normal normal bold 17px/24px Foundry Monoline, "Regular";
   width: 414px;
   height: 24px;
-  margin-left: 95px !important;
   letter-spacing: 0px;
 }
 
@@ -92,9 +90,6 @@ export default {
   border: 1px solid #D5D5D5;
   opacity: 1;
   margin-right: 30px !important;
- /*  display: flex;
-  align-items: center;
-  justify-content: center; */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -134,9 +129,4 @@ export default {
   color: #fff;
   font-weight: bold;
 }
-
-/* .row, .col {
-  padding: 0px;
-  margin: 0px;
-} */
 </style>

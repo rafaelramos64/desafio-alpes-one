@@ -111,7 +111,6 @@ export default {
   background: #EEEEEE no-repeat padding-box;
   box-shadow: 0px 0px 5px #00000029;
   border-radius: 4px;
-  opacity: 1;
   padding: 19px 20px 20px 19px;
 }
 
@@ -159,7 +158,7 @@ e da borda com a da cor da font */
   background: #FFFFFF no-repeat padding-box;
   border: 1.5px solid #D5D5D5;
   border-radius: 4px !important;
-  opacity: 1;
+  opacity: 0.9;
   padding-left: 2.2rem;
 }
 
@@ -171,13 +170,11 @@ e da borda com a da cor da font */
 .confirm-button {
   background: #1CB72A 0% 0% no-repeat padding-box;
   border-radius: 4px;
-  opacity: 1;
-  width: 230px;
+  width: 100%;
   height: 45px;
   font: normal normal bold 14px/24px 'Roboto', sans-serif;
   letter-spacing: 0px;
   color: #FFFFFF;
-  opacity: 1;
   border: none !important;
   box-shadow:none !important;
 }
@@ -188,7 +185,6 @@ e da borda com a da cor da font */
 
 /* Posicioning form icons dua to a fault on bootstrapvue */
 .form-group {
-  /* height: 36px !important; */
   position: relative;
   margin-bottom: 5px;
 }

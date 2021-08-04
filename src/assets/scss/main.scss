@@ -9,4 +9,85 @@ img, .nav-icons {
 }
 
 
-// Css to both call center and phone number 
+/* Media queries for responsive mobile */
+@media only screen and (min-width: 500px) {
+  // DriverEmotion page
+  .img-civic-mobile {
+    display: none !important;
+  }
+
+  // Header page
+  .civic-10 {
+    display: none !important;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  /* Removing all initials margins */
+  .remove-margin {
+    margin: 0 !important;
+  }
+  
+  // DriverEmotion page
+  .emotion-text {
+    margin: 43px 20px 14px 20px !important;
+    font: italic normal bold 24px/32px Foundry Monoline !important;
+    text-align: center;
+    height: 85px;
+  }
+
+  .img-together {
+    padding: 0 20px 0 35.5px !important;
+    min-width: 100% !important;
+    margin-bottom: 37px !important;
+  }
+
+  .img-civic-mobile {
+    border: none !important;
+    min-width: 90% !important;
+  }
+
+  .img-civic {
+    display: none !important;
+  }
+
+  .civic-text {
+    width: 100% !important;
+    height: 143px !important;
+  }
+
+  .img-3-cars {
+    display: none !important;
+  }
+
+  // CivicInterior page
+  .ready, .know {
+    height: 64px !important;
+    width: 100% !important;
+  }
+
+  // Header page
+  .call-center-col {
+    margin-top: 28.7px;
+  }
+
+  .background-civic {
+    display: none !important;
+  }
+
+  .civic-10 {
+    margin: 7px auto 40.38px auto !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+
+  // Contacts page
+  .contact-card {
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+    min-width: 90%;
+  }
+}
