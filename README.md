@@ -8,6 +8,8 @@ o desafio consistia em implementar uma landing page construida no AdobeXD. Tecno
 ```
 https://teste-alpes-one.netlify.app
 ```
+https://teste-alpes-one.netlify.app
+```
 ## Project setup
 ```
 npm install
